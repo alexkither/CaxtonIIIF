@@ -1,0 +1,39 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "<span style=\"font-family: 'book antiqua', palatino;\">Whilom, as olde stories tellen us,",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p><span style=\"font-family: 'book antiqua', palatino;\"><strong>Whilom, as olde stories tellen us,</strong></span></p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/67428002",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2023-03-23T09:53:15",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1679565195328",
+    "dcterms:modified" : "2023-03-23T09:53:15",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://alexkither.github.io/CaxtonIIIF/manifests/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=271,1054,647,63"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M270.60937,1054.03129h323.44423v0h323.44423v31.65863v31.65863h-323.44423h-323.44423v-31.65863z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_9aaa04ca-0412-484f-8ae0-6286a7ac0ab0\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://98d79e3f-dd7f-4cfa-8f1e-18e1cc7c7bd2"
+    } ]
+  } ],
+  "@id" : "https://alexkither.github.io/CaxtonIIIF/annotations/3278d311875a3c55571cc3ee1066a51f.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
