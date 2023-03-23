@@ -1,0 +1,75 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://alexkither.github.io/CaxtonIIIF/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "[Click to edit label]",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://bf1cf2da-6b14-46a7-900b-ac45e852640e",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://98d79e3f-dd7f-4cfa-8f1e-18e1cc7c7bd2",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 2000,
+      "width" : 1336,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://d90bb56f-a220-468f-9d3a-7ca1e6f44505",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/knightstalescaxton1/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/knightstalescaxton1",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 2000,
+          "width" : 1336
+        },
+        "on" : "http://98d79e3f-dd7f-4cfa-8f1e-18e1cc7c7bd2"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://9a237557-51ab-4a27-bb60-8ca5b61eb26a",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 2000,
+      "width" : 1425,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://cc7aa077-e2c2-4c1d-bdac-f36a9c922d36",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/knightstalescaxton2/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/knightstalescaxton2",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 2000,
+          "width" : 1425
+        },
+        "on" : "http://9a237557-51ab-4a27-bb60-8ca5b61eb26a"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
