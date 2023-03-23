@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://alexkither.github.io/CaxtonIIIF/annotations/3278d311875a3c55571cc3ee1066a51f.json" ],
+  "@id" : "https://alexkither.github.io/CaxtonIIIF/annotations/collection.json",
+  "label" : "All annotations loaded in alexkither/CaxtonIIIF project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
